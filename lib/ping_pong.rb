@@ -11,31 +11,7 @@ class Fixnum
       elsif number.%(5) == 0
         ping_pong_array.push("pong")
       else ping_pong_array.push(number)
-    end
-
-
-
-    # ping_pong_length=self
-
-# puts(ping_pong_length)
-
-    # ping_pong_length.times() do |time|
-    #   time = time + 1
-
-
-#     if time.%(3) == 0 && time.%(5) == 0
-#       ping_pong_array.push("ping-pong")
-#
-# puts(time)
-#
-#     elsif time.%(3) == 0
-#       ping_pong_array.push("ping")
-#     elsif time.%(5) == 0
-#       ping_pong_array.push("pong")
-#     else
-      # ping_pong_array.push(time)
-
-    # end
+      end
     end
     ping_pong_array
   end

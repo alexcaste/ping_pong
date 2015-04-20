@@ -1,6 +1,5 @@
 require('rspec')
 require('ping_pong.rb')
-require('pry')
 
 describe ('Fixnum#ping_pong') do
   it("build an array the length of fixnum that is input") do
